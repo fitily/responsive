@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+}
+.item-content1, .item-content3, .item-content5 {
+    background-color: white;
+}
+.item-content2, .item-content4 {
+    background-color: rgba(70, 70, 219, 0.925);
+    color: white;
+}
+.item-content1 {
+    height: 200px;
+}
+#picDemo {
+    width: 200px;
+    margin: 20px;
+}
+#empty {
+    height: 70px;
+}
+.item-content2 {
+    padding: 20px;
+}
+.textBox {
+    padding: 10px;
+}
+.iconeB {
+    width: 30px;
+}
+button {
+    margin: 5px;
+}
+.item-content3 {
+    text-align: center;
+    padding: 20px;
+}
+.item-content4 {
+    text-align: center;
+    padding: 10px;
+}
+.texteUnderBusi {
+    display: flex;
+}
+.icone {
+    width: 15px;
+    margin-top: 20px;
+}
+#loremButton {
+    background-color:  rgba(70, 70, 219, 0.925);
+    color: white;
+}
+.littleBox {
+    background-color: white;
+    color: black;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.profilPic {
+    width: 70px;
+    border-radius: 50%;
+    float: left;
+}
+.item-content5 {
+    padding: 20px;
+}
+#client {
+    text-align: right;
+    margin-top: 0;
+}
+#clientPic {
+    width: 100px;
+    margin: 25px;
+    float: right;
+    box-shadow: 10px 0px 5px  rgba(70, 70, 219, 0.925);
+}
+@media only screen and (min-width: 768px) {
+    .item-content1, .item-content2, .item-content3, .item-content4, .item-content5 {
+        width: 100%;
+    }
+    #empty {
+        height: 50px;
+    }
+    h1 {
+        text-align: center;
+    }
+    .texteUnderBusi {
+        justify-content: space-evenly;
+    }
+    .littleBox {
+        padding-top: 20px;
+    }
+    .profilPic {
+        margin: 0 20px 20px 20px;
+    }
+    #clientPic {
+        width: 150px;
+    }
+    #client {
+        text-align: center;
+    }
+}
